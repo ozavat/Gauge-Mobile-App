@@ -1,0 +1,7 @@
+[
+  {
+    "key": "allow_btn",
+    "value": "com.android.packageinstaller:id/permission_allow_button",
+    "type": "id"
+  }
+]
