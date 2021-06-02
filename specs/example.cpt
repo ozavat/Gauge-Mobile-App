@@ -1,27 +1,51 @@
-# First conseptim
+# Thy uygulaması açılır
 * Wait 2 seconds
-* Accept device location
+* Accept device location at "allow_btn"
+
+# Gizlilik ilkesi kabul edilir
 * Wait 2 seconds
-* Accept privacy policy
+* Accept privacy policy at "accept_privacy_policy"
+
+# Bilet al butonuna tıklanır
 * Wait 2 seconds
-* Book a flight
+* Book a flight with "book_a_flight_button"
+
+# Tek yön uçuş seçilir
 * Wait 2 seconds
-* Select one way
+* Select one way "one_way_button"
+
+# Yön bilgisi olarak SAW to ESB seçilir
 * Wait 2 seconds
-* Select from destination
+* Select "from_destination_button" from destination, Enter "destination_search_area" search area, Select "saw_destination_button" airport
 * Wait 2 seconds
-* Select to destination
+* Select "to_destination_button" to destination, Enter "destination_search_area" search area, Select "esb_destination_button" airport
+
+# Tarih bilgisi günün tarihinden 2 gün sonraya seçilir
 * Wait 2 seconds
-* Set departure date
+* Set departure date from "current_date_text_button"
+
+# Tamam butonuna tıklanır
 * Wait 2 seconds
-* Set passenger number
+* Click done "booking_done_button" on calendar screen
+
+# Yetişkin sayısı 1 arttırılır
 * Wait 2 seconds
-* Search flight
+* Increase passanger number with "passenger_increase_button" button
+
+# Uçuş ara butonuna tıklanır
 * Wait 2 seconds
-* Check is flights listed
+* Click search flight "search_flight_button"
+
+# Uçuşların listelendiği kontrol edilir
 * Wait 2 seconds
-* Select random flight on the screen
+* Check is flights listed from "search_flight_list"
+
+# Ekonomik uçuş seçilir
 * Wait 2 seconds
-* Select eco class
+* Select random flight on the screen with "select_random_flight_button"
 * Wait 2 seconds
-* Click continue
+* Select eco class includes "eco_class_button" text
+
+# Devam butonuna tıklanır
+* Wait 2 seconds
+* Click continue "continue_button"
