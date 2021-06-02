@@ -14,16 +14,41 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
+import java.io.File;
+import java.io.FileReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
+import java.io.FileReader;
 public class HookImplementation {
 
     public static AppiumDriver driver;
 
-    static Logger log = org.apache.logging.log4j.LogManager.getLogger(HookImplementation.class);
+    Logger log = org.apache.logging.log4j.LogManager.getLogger(HookImplementation.class);
+    JSONParser parser = new JSONParser();
 
+   public String parser(String key){
+       try {
+           ClassLoader classLoader = getClass().getClassLoader();
+           File file = new File(classLoader.getResource("MainPage.json").getFile());
+           JSONArray obj = (JSONArray)parser.parse(new FileReader(file.getAbsolutePath()));
+
+           for (Object o : obj) {
+                JSONObject myKeys = (JSONObject) o;
+               if (key.equals(myKeys.get("key"))){
+                   return myKeys.get("value").toString();
+               };
+           }
+       }catch (Exception e) {
+           log.error(e);
+       }
+      return null;
+
+   };
 
     @BeforeScenario
     public void prepareAndroidForAppium() throws MalformedURLException {

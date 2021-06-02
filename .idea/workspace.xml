@@ -34,7 +34,7 @@
       <recent name="com.ozanozgun.gaugeproject" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.THY Mobile Uygulama Testi (1)">
+  <component name="RunManager" selected="Gauge Execution.THY Mobile Uygulama Testi (2)">
     <configuration name="THY Mobile Uygulama Testi (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
@@ -50,7 +50,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="THY Mobile Uygulama Testi (3)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="THY Mobile Uygulama Testi (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
       <setting name="tags" value="" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (2)" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (1)" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (5)" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (4)" />
-        <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (3)" />
       </list>
     </recent_temporary>
   </component>
