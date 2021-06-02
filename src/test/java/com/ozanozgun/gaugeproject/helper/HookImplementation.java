@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -20,9 +21,13 @@ public class HookImplementation {
 
    public static AppiumDriver driver;
 
+   // public static final Logger log = Logger.getLogger(HookImplementation.class);
+
+
+
     @BeforeScenario
     public void prepareAndroidForAppium() throws MalformedURLException {
-
+      //  log.info("Preparing connection");
         WebDriverWait wait;
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Nexus_5x_API_27");
@@ -35,7 +40,7 @@ public class HookImplementation {
         capabilities.setCapability("noReset","false");
         URL url = new URL("http://0.0.0.0:4723/wd/hub");
         driver = new AppiumDriver(url,capabilities);
-
+       //log.info("Android device connected");
         wait = new WebDriverWait(driver, 10);
 
 

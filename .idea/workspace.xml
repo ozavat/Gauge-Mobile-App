@@ -34,20 +34,7 @@
       <recent name="com.ozanozgun.gaugeproject" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.THY Mobile Uygulama Testi (2)">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="GaugeProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="GaugeProject" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gauge Execution.THY Mobile Uygulama Testi (4)">
     <configuration name="THY Mobile Uygulama Testi (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
@@ -78,37 +65,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="THY Mobile Uygulama Testi (3)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="GaugeProject" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="THY Mobile Uygulama Testi (4)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="GaugeProject" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="THY Mobile Uygulama Testi" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="GaugeProject" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vowel counts in single word (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="GaugeProject" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vowel counts in single word (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/example.spec:13" />
       <setting name="tags" value="" />
@@ -125,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (4)" />
+        <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (3)" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (2)" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi (1)" />
         <item itemvalue="Gauge Execution.THY Mobile Uygulama Testi" />
-        <item itemvalue="Gauge Execution.Vowel counts in single word (2)" />
-        <item itemvalue="Gauge Execution.Vowel counts in single word (1)" />
       </list>
     </recent_temporary>
   </component>
