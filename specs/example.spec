@@ -13,5 +13,3 @@ To execute this specification, run
 THY Mobile Uygulama Testi
 ---------------------------
 * First conseptim
-
-
