@@ -1,27 +1,51 @@
-# First conseptim
+# Thy uygulaması açılır
 * Wait 2 seconds
 * Accept device location
+
+# Gizlilik ilkesi kabul edilir
 * Wait 2 seconds
 * Accept privacy policy
+
+# Bilet al butonuna tıklanır
 * Wait 2 seconds
 * Book a flight
+
+# Tek yön uçuş seçilir
 * Wait 2 seconds
 * Select one way
+
+# Yön bilgisi olarak SAW to ESB seçilir
 * Wait 2 seconds
 * Select from destination
 * Wait 2 seconds
 * Select to destination
+
+# Tarih bilgisi günün tarihinden 2 gün sonraya seçilir
 * Wait 2 seconds
 * Set departure date
+
+# Tamam butonuna tıklanır
+* Wait 2 seconds
+* Click done button on calendar screen
+
+# Yetişkin sayısı 1 arttırılır
 * Wait 2 seconds
 * Set passenger number
+
+# Uçuş ara butonuna tıklanır
 * Wait 2 seconds
 * Search flight
+
+# Uçuşların listelendiği kontrol edilir
 * Wait 2 seconds
 * Check is flights listed
+
+# Ekonomik uçuş seçilir
 * Wait 2 seconds
 * Select random flight on the screen
 * Wait 2 seconds
 * Select eco class
+
+# Devam butonuna tıklanır
 * Wait 2 seconds
 * Click continue

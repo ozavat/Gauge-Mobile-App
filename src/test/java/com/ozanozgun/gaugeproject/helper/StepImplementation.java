@@ -80,6 +80,11 @@ public class StepImplementation extends HookImplementation {
         departureDate += 2;
         driver.findElement(By.xpath("//*[@text=" + departureDate + "]")).click();
         log.info("Two days after selected");
+
+    }
+
+    @Step("Click done button on calendar screen")
+    public void clickDoneBtnOnCalendar(){
         driver.findElement(By.id("com.turkishairlines.mobile:id/frDashboard_btnDone")).click();
         log.info("Departure calendar done button clicked");
     }
