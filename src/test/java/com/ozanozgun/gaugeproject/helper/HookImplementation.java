@@ -4,6 +4,7 @@ import com.thoughtworks.gauge.BeforeScenario;
 import com.thoughtworks.gauge.BeforeStep;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import org.apache.logging.log4j.Logger;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -19,28 +20,27 @@ import java.util.concurrent.TimeUnit;
 
 public class HookImplementation {
 
-   public static AppiumDriver driver;
+    public static AppiumDriver driver;
 
-   // public static final Logger log = Logger.getLogger(HookImplementation.class);
-
+    static Logger log = org.apache.logging.log4j.LogManager.getLogger(HookImplementation.class);
 
 
     @BeforeScenario
     public void prepareAndroidForAppium() throws MalformedURLException {
-      //  log.info("Preparing connection");
+        log.info("Preparing connection");
         WebDriverWait wait;
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Nexus_5x_API_27");
         capabilities.setCapability("udid", "emulator-5554"); //DeviceId from "adb devices" command
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("platformVersion", "8.1");
-        capabilities.setCapability("skipUnlock","true");
+        capabilities.setCapability("skipUnlock", "true");
         capabilities.setCapability("appPackage", "com.turkishairlines.mobile");
-        capabilities.setCapability("appActivity","com.turkishairlines.mobile.ui.main.MainActivity");
-        capabilities.setCapability("noReset","false");
+        capabilities.setCapability("appActivity", "com.turkishairlines.mobile.ui.main.MainActivity");
+        capabilities.setCapability("noReset", "false");
         URL url = new URL("http://0.0.0.0:4723/wd/hub");
-        driver = new AppiumDriver(url,capabilities);
-       //log.info("Android device connected");
+        driver = new AppiumDriver(url, capabilities);
+        log.info("Android device connected");
         wait = new WebDriverWait(driver, 10);
 
 
